@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Hotel</title>
+  <title>Royal Hotel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945');
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    nav {
+      background: black;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .rooms {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .room {
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 250px;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
 </head>
+
 <body>
 
-  <h1>Welcome to My Hotel</h1>
-  <p>This is my first hotel website</p>
+<header>
+  <h1>Royal Hotel</h1>
+  <p>Luxury Stay & Comfort</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Rooms</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section>
+  <h2>Our Rooms</h2>
+
+  <div class="rooms">
+    <div class="room">
+      <h3>Deluxe Room</h3>
+      <p>₹3000 / night</p>
+    </div>
+
+    <div class="room">
+      <h3>Luxury Room</h3>
+      <p>₹5000 / night</p>
+    </div>
+
+    <div class="room">
+      <h3>Suite</h3>
+      <p>₹8000 / night</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>📍 Uttarkashi, India</p>
+  <p>📞 +91 9876543210</p>
+</section>
+
+<footer>
+  <p>©️ 2026 Royal Hotel</p>
+</footer>
 
 </body>
 </html>
